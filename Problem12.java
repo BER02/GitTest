@@ -4,9 +4,9 @@ import acm.program.*;
 public class Problem12 extends GraphicsProgram{
 	public void run() {
 		drawWall();
-		drawDoor();
-		drawWindow();
-		drawRoof();
+		//drawDoor();
+		//drawWindow();
+		//drawRoof();
 		
 	}
 

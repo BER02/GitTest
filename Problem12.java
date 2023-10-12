@@ -9,6 +9,8 @@ public class Problem12 extends GraphicsProgram{
 	private static final double HOUSE_HEIGHT = 200;
 	private static final double DOOR_WIDTH = 40;
 	private static final double DOOR_HEIGHT = 60;
+	private static final double ROOF_HEIGHT = 100;
+	private static final double ROOF_WIDTH = 60;
 	
 	
 	public void run() {

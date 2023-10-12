@@ -12,7 +12,7 @@ public class Problem12 extends GraphicsProgram{
 
 	private void drawWall() {
 		GRect Wall = new GRect(500, 500);
-		add(Wall, 200, 200);
+		add(Wall, 400, 400);
 		
 	}
 

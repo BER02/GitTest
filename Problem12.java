@@ -40,7 +40,7 @@ public class Problem12 extends GraphicsProgram{
 				x1 = x2;
 				y1 = y2;
 				x2 = x1 + HOUSE_WIDTH / 2;
-				y2 = y1 + ROOF_HEIGHT /2;
+				y2 = y1 + ROOF_HEIGHT ;
 					
 			}
 		
@@ -56,15 +56,6 @@ public class Problem12 extends GraphicsProgram{
 		add(wall, x, y);
 	
 		
-	}
-
-	private void drawCentreLine() {
-		double x1 = 0;
-		double x2 = getWidth();
-		double y1 = getHeight() / 2;
-		double y2 = y1;
-		GLine line = new GLine(x1, y1, x2, y2);
-		add(line);
 	}
 
 }

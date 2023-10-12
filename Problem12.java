@@ -14,7 +14,6 @@ public class Problem12 extends GraphicsProgram{
 	
 	
 	public void run() {
-		drawCentreLine();
 		drawHouse();
 		
 	}

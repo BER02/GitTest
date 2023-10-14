@@ -3,10 +3,14 @@ import stanford.karel.SuperKarel;
 public class Assignment03 extends SuperKarel{
 	public void run() {
 		fillOddRow();
-		turnRight();
-		move();
-		turnRight();
-		fillEvenRow();
+		while(frontIsClear()) {
+			fillEvenRow();
+			if(frontIsClear()) {
+				move();
+				turnRight();
+				fillOddRow();
+			}
+		}
 	}
 
 	private void fillEvenRow() {
@@ -26,6 +30,7 @@ public class Assignment03 extends SuperKarel{
 		while(frontIsClear()) {
 			move();
 		}
+		turnRight();
 		
 	}
 

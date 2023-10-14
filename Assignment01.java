@@ -30,8 +30,6 @@ public class Assignment01 extends SuperKarel {
 		move();
 		turnLeft();
 		move();
-		turnRight();
-		move();
 		
 	}
 

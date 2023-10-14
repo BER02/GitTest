@@ -4,6 +4,8 @@ public class Assignment03 extends SuperKarel{
 	public void run() {
 		fillOddRow();
 		while(frontIsClear()) {
+			move();
+			turnRight();
 			fillEvenRow();
 			if(frontIsClear()) {
 				move();

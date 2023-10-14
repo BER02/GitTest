@@ -28,7 +28,7 @@ public class Assignment02 extends SuperKarel{
 			move();
 		}
 		if(noBeepersPresent()) {
-			pickBeeper();
+			putBeeper();
 		}
 		turnAround();
 		while(frontIsClear()) {

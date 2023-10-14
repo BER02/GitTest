@@ -12,9 +12,9 @@ public class Assignment03 extends SuperKarel{
 	private void fillEvenRow() {
 		while(frontIsClear()) {
 			move();
+			putBeeper()
 			if(frontIsClear()) {
 				move();
-				putBeeper();
 			}
 		}
 		returnToStartOfRow();

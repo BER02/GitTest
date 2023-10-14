@@ -3,7 +3,17 @@ import stanford.karel.SuperKarel;
 public class Assignment04 extends SuperKarel {
 	public void run() {
 		fillTheLine();
+		returnToStart();
 		moveAllBeepersToStart();
+	}
+
+	private void returnToStart() {
+		turnAround();
+		while(frontIsClear()) {
+			move();
+		}
+		turnAround();
+		
 	}
 
 	private void moveBeeperToStart() {

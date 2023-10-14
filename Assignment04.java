@@ -5,6 +5,15 @@ public class Assignment04 extends SuperKarel {
 		fillTheLine();
 		returnToStart();
 		moveAllBeepersToStart();
+		returnToStart();
+		fillHalfLine();
+	}
+
+	private void fillHalfLine() {
+		while(beepersPresent()) {
+			
+		}
+		
 	}
 
 	private void returnToStart() {

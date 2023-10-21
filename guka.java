@@ -6,7 +6,7 @@ import acm.program.GraphicsProgram;
 public class guka extends GraphicsProgram {
 	public void run() {
 		 GLabel guka = new GLabel("Hello, world, from guka!", 100, 75);
-		 guka.setColor(Color.CYAN);
+		 guka.setColor(Color.BLUE);
 		 add(guka);
 		 add(new GRect(98, 60, 134,  23));
 	}

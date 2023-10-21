@@ -3,7 +3,7 @@ import acm.program.GraphicsProgram;
 
 public class guka extends GraphicsProgram {
 	public void run() {
-		 add(new GLabel("Hello, world, from guka", 100,75));
+		 add(new GLabel("Hello, world, from guka!", 100,75));
 	}
 	
 }

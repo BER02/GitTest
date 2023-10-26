@@ -17,10 +17,12 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		add(rect, 40, 40); // placement
 		add(new GOval(100, 100, 500, 500)); // adds new figure (type, x, y, width, height)
 		add(new GLabel("BERO" , 40, 4)); // adds new text x, y
-		GOval line = new GOval(100, 15, 100, 200); // x, y, width, height
-		add(line);
-		rect.setFilled(true);
-		rect.setColor(Color.RED);
+		GOval oval = new GOval(100, 15, 100, 200); // x, y, width, height
+		add(oval);
+		rect.setFilled(true); // fills figure
+		rect.setColor(Color.RED); // gives color
+		oval.setFilled(false);
+		oval.setColor(Color.BLUE);
 	}
 
 }

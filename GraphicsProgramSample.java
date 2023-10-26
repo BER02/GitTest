@@ -29,6 +29,7 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		add(rect1);
 		GLine line = new GLine(100, 100, 100, 500);
 		line.setColor(Color.BLUE);
+		add(line);
 	}
 
 }

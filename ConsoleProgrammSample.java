@@ -21,6 +21,7 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 		double n4 = readDouble();
 		double total2 = n1 + n2 + n3 + n4;
 		println(total2);
+		println(n1 * n2);
 	}
 
 }

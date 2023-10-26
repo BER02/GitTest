@@ -31,7 +31,7 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		line.setColor(Color.BLUE);
 		add(line);
 		GLabel msg = new GLabel("ME" , 34, 34);
-		msg.setFont("Helvetica-24"); // sets font
+		msg.setFont("Helvetica-24"); // sets font and size
 		add(msg);
 	}
 

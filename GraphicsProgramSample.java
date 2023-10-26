@@ -12,8 +12,9 @@ import acm.program.*;
 public class GraphicsProgramSample extends GraphicsProgram {
 	
 	public void run() {
-		GRect rect = new GRect(50, 100);
-		add(rect, 40, 40);
+		GRect rect = new GRect(50, 100); // type + sizes
+		add(rect, 40, 40); // placement
+		add(new GOval(100, 100, 500, 500));
 	}
 
 }

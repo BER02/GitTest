@@ -14,7 +14,8 @@ public class GraphicsProgramSample extends GraphicsProgram {
 	public void run() {
 		GRect rect = new GRect(50, 100); // type + sizes
 		add(rect, 40, 40); // placement
-		add(new GOval(100, 100, 500, 500));
+		add(new GOval(100, 100, 500, 500)); // adds new figure (type, x, y, width, height)
+		add(new GLabel("BERO" , 40, 4)); // adds new text x, y
 	}
 
 }

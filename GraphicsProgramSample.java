@@ -20,13 +20,15 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		GOval oval = new GOval(100, 15, 100, 200); // x, y, width, height
 		add(oval);
 		rect.setFilled(true); // fills figure
-		rect.setColor(Color.RED); // gives color
+		rect.setColor(Color.RED); // gives color, needs setFilled.
 		oval.setFilled(false);
 		oval.setColor(Color.BLUE);
 		GRect rect1 = new GRect(15, 15, 35, 35);
-		rect1.setFilled(true);
-		rect1.setFillColor(Color.GREEN);
+		rect1.setFilled(true);   
+		rect1.setFillColor(Color.GREEN); // leaves borders black
 		add(rect1);
+		GLine line = new GLine(100, 100, 100, 500);
+		line.setColor(Color.BLUE);
 	}
 
 }

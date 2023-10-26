@@ -24,6 +24,7 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		oval.setFilled(false);
 		oval.setColor(Color.BLUE);
 		GRect rect1 = new GRect(15, 15, 35, 35);
+		rect1.setFilled(true);
 		rect1.setFillColor(Color.GREEN);
 		add(rect1);
 	}

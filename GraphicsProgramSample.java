@@ -5,6 +5,7 @@
  * draws a partial diagram of the acm.graphics hierarchy.
  */
 
+import java.awt.*;
 import acm.graphics.*;
 import acm.program.*;
 
@@ -18,6 +19,8 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		add(new GLabel("BERO" , 40, 4)); // adds new text x, y
 		GOval line = new GOval(100, 15, 100, 200); // x, y, width, height
 		add(line);
+		rect.setFilled(true);
+		rect.setColor(Color.RED);
 	}
 
 }

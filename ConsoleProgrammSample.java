@@ -21,7 +21,15 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 		double n4 = readDouble();
 		double total2 = n1 + n2 + n3 + n4;
 		println(total2);
-		println(n1 * n2);
+		println(n1 * n2); 
+		println(CENTIMETERS_PER_INCH);
+		/*
+		 * multiply = *
+		 * sum = +
+		 * difference = -
+		 * division = / 
+		 * 
+		 */
 	}
-
+	private static final int CENTIMETERS_PER_INCH = 2; // creates constant
 }

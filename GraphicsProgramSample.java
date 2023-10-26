@@ -30,6 +30,9 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		GLine line = new GLine(100, 100, 100, 500);
 		line.setColor(Color.BLUE);
 		add(line);
+		GLabel msg = new GLabel("ME" , 34, 34);
+		msg.setFont("Helvetica-24"); // sets font
+		add(msg);
 	}
 
 }

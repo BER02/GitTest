@@ -34,5 +34,4 @@ public class GraphicsProgramSample extends GraphicsProgram {
 		msg.setFont("Helvetica-24"); // sets font and size
 		add(msg);
 	}
-
 }

@@ -15,6 +15,6 @@ public class me extends GraphicsProgram {
  }
 /* Private constants */
  private static final int N_STEPS = 100;
- private static final int PAUSE_TIME = 10000;
+ private static final int PAUSE_TIME = 1000;
  private static final double SQUARE_SIZE = 50;
 }

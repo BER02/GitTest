@@ -4,6 +4,12 @@ import acm.program.*;
 public class Problem13 extends GraphicsProgram{
 	public void run() {
 		drawMidLine();
+		drawCircle(5,5);
+	}
+
+	private void drawCircle(int i, int j) {
+		add(new GOval(10, 10, i, j));
+		
 	}
 
 	private void drawMidLine() {

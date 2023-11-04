@@ -14,8 +14,8 @@ public class Problem13 extends GraphicsProgram{
 		GLine midLine = new GLine(x1, y1, x2, y2);
 		add(midLine);
 		
-		double y3 = (double) getHeight() / 2;
-		add(new GLine(x1, y3, x2, y3));
+		//double y3 = (double) getHeight() / 2;
+		//add(new GLine(x1, y3, x2, y3));
 	}
 	
 

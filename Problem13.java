@@ -8,7 +8,7 @@ public class Problem13 extends GraphicsProgram{
 	}
 
 	private void drawCircle(int i, int j) {
-		add(new GOval(10, 10, 10000, 100));
+		add(new GOval(10, 10, 100, 100));
 		
 	}
 

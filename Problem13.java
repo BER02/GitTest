@@ -12,10 +12,10 @@ public class Problem13 extends GraphicsProgram{
 		double x2 = getWidth();
 		double y2 = y1;
 		GLine midLine = new GLine(x1, y1, x2, y2);
-		add(midLine);
+		//add(midLine);
 		
-		//double y3 = (double) getHeight() / 2;
-		//add(new GLine(x1, y3, x2, y3));
+		double y3 = (double) getHeight() / 2;
+		add(new GLine(x1, y3, x2, y3));
 	}
 	
 

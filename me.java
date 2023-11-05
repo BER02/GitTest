@@ -3,18 +3,18 @@ import acm.program.*;
 
 public class me extends GraphicsProgram {
  public void run() {
- GRect square = new GRect(0, 0, SQUARE_SIZE, SQUARE_SIZE);
- square.setFilled(true);
- add(square);
- double dx = (getWidth() - SQUARE_SIZE) / N_STEPS;
- double dy = (getHeight() - SQUARE_SIZE) / N_STEPS;
- for (int i = 0; i < N_STEPS; i++) {
- square.move(dx, dy);
- pause(PAUSE_TIME);
+ double sqSize = (double) getHeight() / N_ROWS;
+ for (int i = 0; i < N_ROWS; i++) {
+ for (int j = 0; j < N_COLUMNS; j++) {
+ double x = j * sqSize;
+ double y = i * sqSize;
+ GRect sq = new GRect(x, y, sqSize, sqSize);
+ sq.setFilled((i + j) % 2 != 0);
+ add(sq);
+ }
  }
  }
 /* Private constants */
- private static final int N_STEPS = 100;
- private static final int PAUSE_TIME = 1000;
- private static final double SQUARE_SIZE = 50;
+ private static final int N_ROWS = 8;
+ private static final int N_COLUMNS = 8;
 }

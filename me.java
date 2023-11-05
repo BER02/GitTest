@@ -3,7 +3,7 @@ import acm.program.*;
 
 public class me extends GraphicsProgram {
  public void run() {
- double sqSize = getHeight() / N_ROWS;
+ double sqSize = (double) getHeight() / N_ROWS;
  for (int i = 0; i < N_ROWS; i++) {
  for (int j = 0; j < N_COLUMNS; j++) {
  double x = j * sqSize;

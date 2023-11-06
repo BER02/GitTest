@@ -26,7 +26,7 @@ public class Problem34 extends GraphicsProgram {
 
 	private static final int MIN_RADIUS = 20;
 	private static final int MAX_RADIUS = 70;
-	private static final int AMOUNT = 100;
+	private static final int AMOUNT = 4;
 	private RandomGenerator rgen = RandomGenerator.getInstance();
 
 }

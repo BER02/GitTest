@@ -1,7 +1,6 @@
-import acm.graphics.*;
 import acm.program.*;
 
-public class Problem13 extends GraphicsProgram{
+public class Problem13 extends ConsoleProgram{
 	public void run() {
 		int n = readInt("Enter n: ");
 		int m = readInt("Enter m: ");

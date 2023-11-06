@@ -9,12 +9,14 @@ public class Problem26 extends ConsoleProgram {
 	}
 
 	private int gcd(int x, int y) {
+		int gcd = 0;
 		for (int i = Math.min(x, y); i >= 1; i--) {
 			if(x % i == 0 && y % i == 1) {
-				return i;
+				gcd = i;
+				break;
 			}
-		}
-		return -1;
+		}	
 		
+		return gcd;
 	}
 }

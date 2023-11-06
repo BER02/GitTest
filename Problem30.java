@@ -8,7 +8,7 @@ public class Problem30 extends ConsoleProgram {
 
 	private int reverse(int n) {
 		
-		int reverse = -1;
+		int reverse = 0;
 		int lastDigit = 0;
 		
 		while( n != 0 ) {

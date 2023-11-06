@@ -13,5 +13,6 @@ public class Problem13 extends ConsoleProgram{
 				return i;
 			}
 		}
+		return -1; 
 	}
 }

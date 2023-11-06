@@ -12,6 +12,7 @@ public class Problem26 extends ConsoleProgram {
 		for (int i = Math.min(x, y); i >= 1; i--) {
 			if(x % i == 0 && y % i == 1) return i;
 		}
+		return -1;
 		
 	}
 }

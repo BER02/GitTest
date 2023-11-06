@@ -16,6 +16,4 @@ public class Problem13 extends GraphicsProgram{
 		}
 		return -1;
 	}
-	
-
 }

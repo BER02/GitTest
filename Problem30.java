@@ -9,7 +9,7 @@ public class Problem30 extends ConsoleProgram {
 	private int reverse(int n) {
 		
 		int reverse = -1;
-		int lastDigit = -1;
+		int lastDigit = 0;
 		
 		while( n != 0 ) {
 			lastDigit = n % 10;

@@ -32,4 +32,14 @@ public class Problem26 extends ConsoleProgram{
 		}
 		return -1;
 	}
+	/*
+	 * public int gcd(int x, int y) {
+       int guess = Math.min(x, y);
+       while (x % guess != 0 || y % guess != 0) {
+       guess--;
+       }
+       return guess;
+       }
+	 * 
+	 */
 }

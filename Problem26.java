@@ -5,7 +5,7 @@ public class Problem26 extends ConsoleProgram {
 		int n = readInt("Enter n: " );
 		int m = readInt("Enter m: ");
 		
-		println(GCD(n, m));
+		println(gcd(n, m));
 	}
 
 	private int gcd(int x, int y) {

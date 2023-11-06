@@ -30,6 +30,6 @@ public class Problem26 extends ConsoleProgram{
 				return i;
 			}
 		}
-		return 0;
+		return 100;
 	}
 }

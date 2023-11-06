@@ -7,6 +7,11 @@ public class Problem27 extends ConsoleProgram {
 		while(true) {
 			int n = readInt("? ");
 			if (n == SENTINEL) break;
+			
+			while(n < 0) {
+				println("n must be positive");
+				n = readInt("? ");
+			}
 			if (n % 2 == 0) numEven++;
 		}
 		

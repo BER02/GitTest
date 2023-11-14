@@ -12,8 +12,10 @@ public class Problemsth extends GraphicsProgram {
 		GRect rect = new GRect(10, 10);
 		rect.setFilled(true);
 		add(rect, 100, 100);
+		while(true){
 		rect.move(100.0 , 100.0);
 		pause(20);
+		}
 	}
 
 

@@ -14,7 +14,7 @@ public class Problemsth extends GraphicsProgram {
 		add(rect, 100, 100);
 		while(true){
 		rect.move(3.0 , 3.0);
-		pause(20);
+		pause(10);
 		}
 	}
 

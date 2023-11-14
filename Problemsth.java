@@ -13,8 +13,7 @@ public class Problemsth extends GraphicsProgram {
 		rect.setFilled(true);
 		add(rect, 100, 100);
 		while(true){
-		rect.move(100.0 , 100.0);
-		pause(20);
+		rect.move(3.0 , 3.0);
 		}
 	}
 

@@ -12,7 +12,7 @@ public class Problemsth extends GraphicsProgram {
 		GRect rect = new GRect(10, 10);
 		rect.setFilled(true);
 		add(rect, 100, 100);
-		rect.move(3.0 , 3.0);
+		rect.move(10.0 , 10.0);
 	}
 
 

@@ -1,12 +1,17 @@
+import java.awt.Color;
+
 import acm.graphics.*;
 import acm.program.*;
 
 public class me extends GraphicsProgram {
 	
 	public void run() {
-		GLabel text = new GLabel("hello");
-		add(text, 100, 100);
-		add( new GLine (100, 100 - text.getAscent(), getWidth(), 100 - text.getAscent()));
+		winMessage();
+	}
+	private void winMessage() {
+		GLabel winMessage = new GLabel("YOU HAVE WON!");
+		winMessage.setColor(Color.RED);
+		add(winMessage, (getWidth() - winMessage.getWidth()) / 2, (getHeight() - winMessage.getAscent()) / 2);
 	}
 	 
 }

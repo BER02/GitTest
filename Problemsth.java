@@ -43,12 +43,7 @@ public class Problemsth extends GraphicsProgram {
 
 /** Offset of the top brick row from the top */
     private static final int BRICK_Y_OFFSET = 70;
-
-/** .JAR main method */
-    public static void main(String[] args) {
-        new Breakout().start(args);
-    }
-    
+   
 /** Runs the Breakout program. */
     public void run() {                
         loader(); // load sound, event listeners, set black canvas

@@ -25,5 +25,7 @@ public class Problem38 extends ConsoleProgram{
 				println("Balance: " + balance);
 			}
 		}
+		
+		println("GAME OVER!");
 	}
 }

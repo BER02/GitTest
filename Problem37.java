@@ -9,7 +9,7 @@ public class Problem37 extends ConsoleProgram{
 
 	public void run() {
 		int bet = readInt("Enter number: ");
-		int rouletteNumber = rgen.nextInt(MIN_VALUE, MAX_VALUE;);
+		int rouletteNumber = rgen.nextInt(MIN_VALUE, MAX_VALUE);
 		println("Roulette number is: " + rouletteNumber);
 		if(bet == rouletteNumber) println("YOU HAVE WON!");
 		else println("YOU HAVE LOST!");

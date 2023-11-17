@@ -1,5 +1,4 @@
 import java.awt.event.MouseEvent;
-
 import acm.graphics.GOval;
 import acm.program.GraphicsProgram;
 

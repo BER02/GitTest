@@ -17,5 +17,5 @@ public class Problem42 extends GraphicsProgram{
 		line.setEndPoint(e.getX(), e.getY());
 	}
 	
-	private GLine line;
+	GLine line;
 }

@@ -5,6 +5,7 @@ import acm.program.GraphicsProgram;
 public class Problem42 extends GraphicsProgram{
 	public void run() {
 		addMouseListeners();
+		line = new GLine(0,0,0,0);
 	}
 	
 	public void mousePressed(MouseEvent e) {

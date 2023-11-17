@@ -3,9 +3,11 @@ import acm.graphics.GLine;
 import acm.program.GraphicsProgram;
 
 public class Problem42 extends GraphicsProgram{
+	private GLine line;
+	
 	public void run() {
 		addMouseListeners();
-		line = new GLine(0,0,0,0);
+		line = new GLine(1,1,0,0);
 	}
 	
 	public void mousePressed(MouseEvent e) {
@@ -17,5 +19,4 @@ public class Problem42 extends GraphicsProgram{
 		line.setEndPoint(e.getX(), e.getY());
 	}
 	
-	GLine line;
 }

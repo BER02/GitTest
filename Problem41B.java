@@ -4,7 +4,7 @@ import acm.program.GraphicsProgram;
 
 public class Problem41B extends GraphicsProgram{
 	private static final int RADIUS = 20;
-	GOval circle;
+	private GOval circle;
 	public void run() {
 		circle = new GOval(2 * RADIUS, 2 * RADIUS);
 		addMouseListeners(); 

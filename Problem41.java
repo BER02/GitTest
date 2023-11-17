@@ -13,13 +13,17 @@ public class Problem41 extends GraphicsProgram{
 	public void mouseDragged(MouseEvent e) {
 		int x = e.getX() - RADIUS;
 		int y = e.getY() - RADIUS;
-		add(new GOval(x, y, 2 * RADIUS, 2 * RADIUS));
+		GOval circle = new GOval(2 * RADIUS, 2 * RADIUS);
+		circle.setFilled(true);
+		add(circle, x, y);
 	}
 	
 	public void mousePressed(MouseEvent e) {
 		int x = e.getX() - RADIUS;
 		int y = e.getY() - RADIUS;
-		add(new GOval(x, y, 2 * RADIUS, 2 * RADIUS));
+		GOval circle = new GOval(2 * RADIUS, 2 * RADIUS);
+		circle.setFilled(true);
+		add(circle, x, y);
 	}
 
 }

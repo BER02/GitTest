@@ -12,7 +12,7 @@ public class Problem40 extends GraphicsProgram{
 		int vx = VEL_X;
 		
 		while(true) {
-			if(circle.getX() <= 0 || circle.getX() + 2 * BALL_RADIUS >= getWidth()) vx = -vx;
+			if(circle.getX() < 0 || circle.getX() + 2 * BALL_RADIUS >= getWidth()) vx = -vx;
 			
 			circle.move(vx, 0);
 			pause(PAUSE);

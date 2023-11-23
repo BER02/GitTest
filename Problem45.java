@@ -2,8 +2,8 @@ import acm.program.ConsoleProgram;
 
 public class Problem45 extends ConsoleProgram{
 	public void run() {
-		String text = readLine("Enter the text: ");
-		char symbol = readLine("Enter the symbol: ").charAt(0);
+		String text = readLine("Enter text: ");
+		char symbol = readLine("Enter symbol: ").charAt(0);
 		
 		int answer = 0;
 		

@@ -4,6 +4,8 @@ public class Problem49 extends ConsoleProgram{
 	public void run() {
 		String text = readLine("Enter number text: ");
 		println(stringToInteger(text));
+		
+		println(stringToInteger(text) - 50);
 	}
 	
 	private int stringToInteger(String text) {

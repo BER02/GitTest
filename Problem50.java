@@ -12,5 +12,4 @@ public class Problem50 extends ConsoleProgram{
 		}
 		println("Number of words: " + numOfWords);
 	}
-
 }

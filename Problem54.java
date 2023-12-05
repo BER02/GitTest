@@ -18,6 +18,9 @@ public class Problem54 extends ConsoleProgram{
 			}
 		}
 		
+		println(biggest1);
+		println(biggest2);
+		
 	}
 
 }

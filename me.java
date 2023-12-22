@@ -1,14 +1,13 @@
 import acm.graphics.GOval;
+import acm.program.ConsoleProgram;
 import acm.program.GraphicsProgram;
 import acm.util.RandomGenerator;
 
-public class me extends GraphicsProgram{
+public class me extends ConsoleProgram{
 	private RandomGenerator rgen = RandomGenerator.getInstance();
 	
 	public void run() {
-		GOval circle = new GOval(100, 100);
-		circle.setFilled(true);
-		circle.setColor(rgen.nextColor());
-		add(circle, 100, 100);
+		int[][] matrix = new int[10][10];
+		println(matrix[1][1]);
 	}
 }

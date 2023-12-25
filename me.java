@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import acm.util*;
+
 import acm.graphics.GOval;
 import acm.program.ConsoleProgram;
 import acm.program.GraphicsProgram;

@@ -10,7 +10,7 @@ public class me extends ConsoleProgram{
 	
 	public void run() {
 		int[] arr = {3, -2, 3, 6, 1};
-		int[] sortedArr = new int[arr.length];
+		int[] sortedArr = arr;
 		Arrays.sort(sortedArr);
 		println(Arrays.toString(sortedArr));
 	}

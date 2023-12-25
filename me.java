@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 import acm.graphics.GOval;
 import acm.program.ConsoleProgram;
 import acm.program.GraphicsProgram;
@@ -7,8 +9,8 @@ public class me extends ConsoleProgram{
 	private RandomGenerator rgen = RandomGenerator.getInstance();
 	
 	public void run() {
-		println("im very \" dick\"");
-		int[][] matrix = new int[10][10];
-		println(matrix[1][1]);
+		int[] arr = {3, -2, 3, 6, 1};
+		Arrays.sort(arr);
+		println(Arrays.toString(arr));
 	}
 }

@@ -20,7 +20,8 @@ public class Problem59 extends ConsoleProgram{
 		                {0, 0, 0, 1, 1, 1, 1},
 		                {1, 1, 1, 1, 1, 1, 1},
 		                {1, 0, 0, 1 ,1, 1, 1},
-		                {0, 0, 1, 0, 1, 1, 1}};
+		                {0, 0, 1, 0, 1, 1, 1},
+		                {1, 1, 1, 1, 1, 1, 1}};
 		
 		println(largestGoodRectSize(matrix1));
 		println(largestGoodRectSize(matrix2));

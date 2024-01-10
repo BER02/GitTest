@@ -51,7 +51,7 @@ public class Problem59 extends ConsoleProgram{
 	private boolean isGoodRect(int[][] matrix) {
 		for(int r = 0; r < matrix.length; r++) {
 			for(int c = 0; c < matrix[0].length; c++) {
-				if(matrix[r][c] != 0) return false;
+				if(matrix[r][c] != 1) return false;
 			}
 		}
 		return true;

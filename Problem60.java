@@ -17,8 +17,8 @@ public class Problem60 extends ConsoleProgram{
 		}
 		println(numList);
 		int[] arr = new int[4];
-		Arrays.toString(arr);
-		println(Arrays.toString(arr));
+		String str = Arrays.toString(arr);
+		println(str);
 	}
 
 }

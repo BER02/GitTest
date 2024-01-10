@@ -14,6 +14,7 @@ public class Problem60 extends ConsoleProgram{
 		for(int i = 1; i <= numList.size(); i ++) {
 			println(numList.get(numList.size() - i));
 		}
+		println(numList);
 	}
 
 }

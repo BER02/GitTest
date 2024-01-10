@@ -2,6 +2,7 @@ import acm.program.ConsoleProgram;
 
 public class Problem61 extends ConsoleProgram{
 	public void run() {
+		boolean exists = false;
 		int m = readInt("Enter m: ");
 		int n = readInt("Enter n: ");
 		int[] nNumbers = new int[n];
@@ -15,11 +16,13 @@ public class Problem61 extends ConsoleProgram{
 				if(nNumbers[i] + nNumbers[j] == m) {
 					num1 = nNumbers[i];
 					num2 = nNumbers[j];
+					exists = true;
 					break;
 				}
 			}
 		}
-		println("Numbers are " + num1 + " and " + num2);
+		if(exists) println("Numbers are " + num1 + " and " + num2);
+		else println("There is no such numbers");
 	}
 
 }

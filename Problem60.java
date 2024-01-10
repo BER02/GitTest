@@ -15,13 +15,5 @@ public class Problem60 extends ConsoleProgram{
 		for(int i = 1; i <= numList.size(); i ++) {
 			println(numList.get(numList.size() - i));
 		}
-		println(numList);
-		int[] arr = new int[4];
-		String str = Arrays.toString(arr);
-		println(str);
-		int[] arr2 = {1, 5, -1, 14, 0};
-		Arrays.sort(arr2);
-		println(Arrays.toString(arr2));
 	}
-
 }

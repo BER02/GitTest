@@ -15,6 +15,8 @@ public class Problem60 extends ConsoleProgram{
 			println(numList.get(numList.size() - i));
 		}
 		println(numList);
+		int[] arr = new int[4];
+		println(arr);
 	}
 
 }

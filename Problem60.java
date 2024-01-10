@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import acm.program.ConsoleProgram;
 
@@ -16,7 +17,7 @@ public class Problem60 extends ConsoleProgram{
 		}
 		println(numList);
 		int[] arr = new int[4];
-		println(arr);
+		println(Arrays.toString(arr));
 	}
 
 }

@@ -16,7 +16,7 @@ public class Problem63_64_65_66 extends ConsoleProgram{
 			String person = readLine("Enter person name: ");
 			
 			if(!friendsList.containsKey(person)) {
-				friendsList.put(person, new ArrayList<String>);
+				friendsList.put(person, new ArrayList<String>());
 			}
 			
 			ArrayList<String> personsFriends = friendsList.get(person);

@@ -51,6 +51,8 @@ public class Problem63_64_65_66 extends ConsoleProgram{
  				println(name + ": " + friends);
  			}
  		}
+ 		
+ 		
 	}
 	
 

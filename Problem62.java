@@ -15,12 +15,9 @@ public class Problem62 extends ConsoleProgram{
 			if(nameCount.get(name) == null) {
 				nameCount.put(name, 0);
 			}
-			
 			int currCount = nameCount.get(name);
-			nameCount.put(name, currCount + 1);
-			
+			nameCount.put(name, currCount + 1);	
 		}
-		
 		println(nameCount);
 	}
 }

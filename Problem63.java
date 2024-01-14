@@ -27,6 +27,18 @@ public class Problem63 extends ConsoleProgram{
 		}
 		
 		println(friendList);
+		
+		int maxFriends = 0;
+		String personWithMostFriends = null;
+		for(String key : friendList.keySet()) {
+			ArrayList<String> friends = friendList.get(key);
+			if(friends.size() > maxFriends) {
+				maxFriends = friends.size();
+				personWithMostFriends = key;
+			}
+		}
+		
+		println("Person with most friends is " + personWithMostFriends + " with " + maxFriends + " friends.");
 //		tornike -> anastasia, giorgi, lizi
 //		anastasia -> lizi
 		

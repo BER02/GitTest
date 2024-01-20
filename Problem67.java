@@ -12,10 +12,7 @@ public class Problem67 extends GraphicsProgram{
 	public void init() {
 		imageName = new JTextField();
 		add(imageName, SOUTH);
-		
-		imageName.addActionListener(this);
-		addActionListeners();
-		
+	
 		imageName.setActionCommand("this");
 		
 		GImage image = new GImage("bad path");
@@ -36,9 +33,6 @@ public class Problem67 extends GraphicsProgram{
 				add(new GLabel("Error occured"), 20, 20);
 			}
 			imageName.setText("");
-		}
-		if(e.getSource() == this) {
-			
 		}
 	}
 

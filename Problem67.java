@@ -10,7 +10,7 @@ public class Problem67 extends GraphicsProgram{
 	private JTextField imageName;
 	
 	public void init() {
-		imageName = new JTextField();
+		imageName = new JTextField(20);
 		add(imageName, SOUTH);
 	
 		imageName.setActionCommand("this");

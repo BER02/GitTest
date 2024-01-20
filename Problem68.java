@@ -35,6 +35,7 @@ public class Problem68 extends GraphicsProgram{
 		if(e.getSource() == text || e.getSource() == button) {
 			String message = text.getText();
 			displayMessage(message);
+			text.setText("");
 		}
 	}
 	

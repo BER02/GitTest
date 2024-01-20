@@ -50,7 +50,7 @@ public class Problem68 extends GraphicsProgram{
 	
 	private void correctAllMessagesPosition() {
 		if(allMessages.getHeight() + OFFSET > getHeight()) {
-			allMessages.setLocation(x, getHeight() - allMessages.getHeight() - OFFSET);
+			allMessages.setLocation(allMessages.getX(), getHeight() - allMessages.getHeight() - OFFSET);
 		}	
 	}
 	

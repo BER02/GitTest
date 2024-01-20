@@ -63,9 +63,9 @@ public class Problem68 extends GraphicsProgram{
 		allMessages.move(0, e.getY() - prevY);
 		
 		if(allMessages.getY() > 0) {
-			allMessages.setLocation(x, 0);
+			allMessages.setLocation(allMessages.getX(), 0);
 		} else if(allMessages.getY() < getHeight() - allMessages.getHeight() - OFFSET) {
-			allMessages.setLocation(x, getHeight() - allMessages.getHeight() - OFFSET);
+			allMessages.setLocation(allMessages.getX(), getHeight() - allMessages.getHeight() - OFFSET);
 		}
 	}
 }

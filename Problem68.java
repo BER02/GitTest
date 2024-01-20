@@ -16,7 +16,7 @@ public class Problem68 extends GraphicsProgram{
 	private int prevY;
 	
 	public void init() {
-		text = new JTextField();
+		text = new JTextField(40);
 		add(text, SOUTH);
 		
 		text.addActionListener(this);

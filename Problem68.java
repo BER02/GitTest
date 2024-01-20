@@ -31,6 +31,7 @@ public class Problem68 extends GraphicsProgram{
 		addMouseListeners();	
 	}
 	
+	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource() == text || e.getSource() == button) {
 			String message = text.getText();

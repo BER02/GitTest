@@ -32,17 +32,15 @@ public class Problem68 extends GraphicsProgram{
 	}
 	
 	public void actionPerformed(ActionEvent e) {
-		println("here");
 		if(e.getSource() == text || e.getSource() == button) {
 			String message = text.getText();
-			println(message);
 			displayMessage(message);
 			text.setText("");
 		}
 	}
 	
 	private void displayMessage(String message) {
-		if(message == null || message == "") return;
+		if(message == null || message.equals("")) return;
 		GLabel messageLabel = new GLabel(message);
 		allMessages.add(messageLabel, x, y);
 		y += OFFSET;

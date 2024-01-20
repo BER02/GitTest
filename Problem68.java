@@ -31,10 +31,11 @@ public class Problem68 extends GraphicsProgram{
 		addMouseListeners();	
 	}
 	
-	@Override
 	public void actionPerformed(ActionEvent e) {
+		println("here");
 		if(e.getSource() == text || e.getSource() == button) {
 			String message = text.getText();
+			println(message);
 			displayMessage(message);
 			text.setText("");
 		}

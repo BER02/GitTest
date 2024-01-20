@@ -40,7 +40,8 @@ public class Problem68 extends GraphicsProgram{
 	}
 	
 	private void displayMessage(String message) {
-		if(message == null || message.equals("")) return;
+		if(message == null || message.equals("")
+				) return;
 		GLabel messageLabel = new GLabel(message);
 		allMessages.add(messageLabel, x, y);
 		y += OFFSET;
@@ -61,6 +62,7 @@ public class Problem68 extends GraphicsProgram{
 	public void mouseDragged(MouseEvent e) {
 		if(allMessages.getHeight() + OFFSET <= getHeight()) return;
 		allMessages.move(0, e.getY() - prevY);
+		prevY = e.getY();
 		
 		if(allMessages.getY() > 0) {
 			allMessages.setLocation(allMessages.getX(), 0);

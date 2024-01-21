@@ -5,7 +5,7 @@ public class Pamfaf extends GraphicsProgram{
 	public void run() {
 		GLabel text = new GLabel("me");
 		add(text, 20, 20);
-		text.setLabel("zaza);
+		text.setLabel("zaza");
 	}
 	
 

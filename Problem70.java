@@ -1,6 +1,7 @@
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 
+import acm.graphics.GLine;
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
@@ -16,12 +17,17 @@ public class Problem70 extends GraphicsProgram implements ComponentListener{
 		removeAll();
 		double width = (double) getWidth() / GRID_NUM;
 		double height = (double) getHeight() / GRID_NUM;
-		for(int i = 0; i < GRID_NUM; i++) {
-			for(int j = 0; j < GRID_NUM; j++) {
-				GRect rect = new GRect(width, height);
-				add(rect, i * width, j * height);
-			}
-		}
+//		for(int i = 0; i < GRID_NUM; i++) {
+//			for(int j = 0; j < GRID_NUM; j++) {
+//				GRect rect = new GRect(width, height);
+//				add(rect, i * width, j * height);
+//			}
+//		}
+		
+		for(int i = 0; i <= GRID_NUM; i++) {
+			add(new GLine(0, i * height, getWidth(), i * height));
+			add(new GLine(i * width, 0, i * width, getHeight()));
+ 		}
 	}
 
 	@Override

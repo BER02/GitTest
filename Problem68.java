@@ -40,8 +40,7 @@ public class Problem68 extends GraphicsProgram{
 	}
 	
 	private void displayMessage(String message) {
-		if(message == null || message.equals("")
-				) return;
+		if(message == null || message.equals("")) return;
 		GLabel messageLabel = new GLabel(message);
 		allMessages.add(messageLabel, x, y);
 		y += OFFSET;
